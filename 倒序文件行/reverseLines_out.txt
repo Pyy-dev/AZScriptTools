@@ -1,0 +1,31 @@
+
+    print 'Done! Cost Time: %0.2f second' % (time.clock() - startTime)
+    
+    reverseLine(path)
+
+    path = raw_input('Please input dir with \'YOUR File\':').strip()
+    startTime = time.clock()
+if __name__ == '__main__' :
+
+    print 'total lines:' , len(linelist)
+    print '【Success】\n已在 ['+dir+'] 目录下创建新文件[reverseLines_out.txt] 请查看！'
+    fileOut.close()
+        print line
+        fileOut.write(line)
+    for line in linelist:
+    fileOut = open(newFile, 'w')
+    
+    newFile = dir + '/reverseLines_out.txt'
+    [dir,file] = os.path.split(path)
+    
+    linelist.reverse()
+    linelist = open(fname).readlines()
+def reverseLine(fname):
+#读取一个文件每一行,并倒序
+
+import time
+import os
+
+# 把文件顺序行变倒序
+# coding=utf-8
+#!/usr/bin/env python
